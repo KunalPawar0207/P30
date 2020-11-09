@@ -68,7 +68,8 @@ function draw() {
   background(56,44,44); 
  
   Engine.update(engine);
-  textSize(10)
+  textSize(20)
+  fill("lightyellow");
   text(mouseX + ',' + mouseY, 10, 15);
   textSize(20);
   fill("lightyellow");
